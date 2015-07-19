@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="Lazyload/jquery.lazyload.js"></script>
+</head>
+<body>
+<img class="lazy" src="Lazyload/img/Yosemite.jpg" data-original="Lazyload/img/Yosemite_1.jpg" width="640" height="480">
+<br>
+<img class="lazy" src="Lazyload/img/Yosemite.jpg" data-original="Lazyload/img/Yosemite_2.jpg" width="640" height="480">
+<br>
+<img class="lazy" src="Lazyload/img/Yosemite.jpg" data-original="Lazyload/img/Yosemite_3.jpg" width="640" height="480">
+<br>
+<img class="lazy" src="Lazyload/img/Yosemite.jpg" data-original="Lazyload/img/Yosemite_4.jpg" width="640" height="480">
+<br>
+<img class="lazy" src="Lazyload/img/Yosemite.jpg" data-original="Lazyload/img/Yosemite_5.jpg" width="640" height="480">
+
+<script type="text/javascript">
+    $(function() {
+        $("img.lazy").lazyload();
+    });
+</script>
+</body>
+</html>
